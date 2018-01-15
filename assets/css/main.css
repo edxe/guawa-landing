@@ -1359,6 +1359,11 @@ body.is-loading #header .content .inner {
 
 }
 
+#teaser iframe{
+    width: 540px;
+    height: 440px;
+}
+
 @media screen and (max-width: 736px) {
 
     #header > * {
@@ -1371,8 +1376,13 @@ body.is-loading #header .content .inner {
     }
 
     #header .logo img {
-        width: 400px;
+        width: 300px;
 
+    }
+
+    #teaser iframe{
+        width: 310px;
+        height: 210px;
     }
 
     #header .logo .icon:before {
